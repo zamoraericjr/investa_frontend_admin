@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h3 {
+    color: #9EC8B9;
+    font-weight: bold;
+}
+
+.test{
+    background-color: rgb(3, 88, 67); 
+    box-shadow:0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    margin: 0px;
+    position: fixed;
+    width:fit-content;
+
+    
+
+
+}
+.title{
+    background-color: rgb(3, 88, 67); 
+    box-shadow:0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    margin: 0px;
+    
+    display: block;
+    
+
+    
+
+
+}
+
+.click{
+    cursor: pointer;
+}
