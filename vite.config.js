@@ -7,9 +7,12 @@ export default defineConfig({
   base: "/",
   server: {
     proxy: {
-      "/investors": "http://localhost:3001",
-      "/products": "http://localhost:3001",
-      "/selected": "http://localhost:3001",
+      // "/investors": "http://localhost:3001",
+      // "/products": "http://localhost:3001",
+      // "/selected": "http://localhost:3001",
+      "/investors": "http://investa-api.onrender.com",
+      "/products": "http://investa-api.onrender.com",
+      "/selected": "http://investa-api.onrender.com",
     },
   },
 });

@@ -10,3 +10,5 @@ npm i react-router-dom
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 npm i react-icons
+
+https://github.com/zamoraericjr/investa_frontend_admin.git
