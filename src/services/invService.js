@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseUrl = "/investors";
+const baseUrl = "http://investa-api.onrender.com/investors";
 
 async function addInvestor(newInv) {
   const response = await axios.post(baseUrl, newInv);
