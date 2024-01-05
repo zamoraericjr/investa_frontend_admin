@@ -3,8 +3,7 @@
 @tailwind utilities;
 
 h3 {
-    color: #07110e;
-    /* color: #9EC8B9; */
+    color: #9EC8B9;
     font-weight: bold;
 }
 

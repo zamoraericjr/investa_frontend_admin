@@ -1,7 +1,6 @@
 import axios from "axios";
 
-// const baseUrl = "/selected";
-const baseUrl = "http://investa-api.onrender.com/selected";
+const baseUrl = "/selected";
 
 async function addSelected(sel) {
   const resp = await axios.post(baseUrl, sel);

@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseUrl = "http://investa-api.onrender.com/products";
+const baseUrl = "/products";
 
 async function addProduct(newProd) {
   const resp = await axios.post(baseUrl, newProd);
